@@ -7,12 +7,17 @@ let resumeData = {
       {
         name:"linkedin",
         url:"https://www.linkedin.com/in/dylan-mckone",
-        className:"fa fa-linkedin"
+        className:"linkedin"
       },
       {
         name:"github",
         url:"http://github.com/Dylychill",
-        className:"fa fa-github"
+        className:"github"
+      },
+      {
+        name:"gmail",
+        url:"mailto:demckone@gmail.com",
+        className:"gmail"
       }
     ],
   aboutme:"I am working toward my B.S. in Human Centered Design and Engineering and a B.A in Germanics. I am currently seeking a internships to learn about user research and web development.",
@@ -38,14 +43,14 @@ let resumeData = {
       CompanyName:"The Daily newspaper UW",
       specialization:"Design Editor",
       MonthOfLeaving:"Sep",
-      YearOfLeaving:"2017-Present",
+      YearOfLeaving:"2017-",
       Achievements:""
     }
   ],
   skillsProgDescription:"Programming:",
   skillsProg:[
     {
-      skillname:"React.js",
+      skillname:"Reactjs",
       level:50,
     },
     {

@@ -9,7 +9,7 @@
   color: black;
 }
 
-header{
+header {
   width:100%;
   color: white;
   display:flex;
@@ -19,13 +19,17 @@ header{
   justify-content: center;
 }
 
-.page{
+.page {
   display:flex;
   flex:1;
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
   width: 100%;
+}
+
+.socialimg {
+  background: url(github.png)
 }
 
 .home {
@@ -55,15 +59,53 @@ h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+  text-align: center;
 }
 
 .home h3 {
-  font: 18px/1.9em 'librebaskerville-regular', serif;
+  font: 20px/1.9em 'librebaskerville-regular', serif;
   color: rgb(255, 255, 255);
   margin: 0 auto;
   width: 70%;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
   text-align: center;
+}
+
+@media only screen and (max-width: 480px){
+  h3 {
+      width: 90%;
+      font: 14px / 1.9em librebaskerville-regular, sans-serif;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+ h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+ h3 {
+    font: 16px/1.9em 'librebaskerville-regular', serif;
+    width: 85%;
+ }
+
+ /* header social links */
+ .social {
+    margin: 18px 0 24px 0;
+    font-size: 24px;
+    line-height: 36px;
+ }
+ .social li { margin: 0 10px; }
+
+}
+
+/* Contact stuff */
+.social {
+  margin: 24px 0;
+  padding: 0;
+  font-size: 30px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+.social li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0;
 }
 
 /* ------------------------------------------------------------------ */

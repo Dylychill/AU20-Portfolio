@@ -3,7 +3,8 @@ import './App.css';
 import Navbar from './navbar.js'
 import AllComponents from './componentsPage.js'
 import Resume from './resume.js';
-// import Home from './home.js';
+import resumeData from './resumeData';
+import { SocialIcon } from 'react-social-icons';
 import {
   BrowserRouter as Router,
   useHistory,
@@ -33,16 +34,35 @@ function App() {
                 <h1>Dylan McKone</h1>
                 <h3>I am a University of Washington undergraduate studying Germanics and Human-Centered Design and Engineering (HCDE).</h3>
                 <h3>This is a brief portfolio website I made myself using React and JSX. Look around to learn more about me! :)</h3>
+                <ul className="social">
+                  {resumeData.socialLinks && resumeData.socialLinks.map(item =>{
+                    return(<li key={item.name}>
+                      <SocialIcon url={item.url} bgColor="white" />
+                    </li>)
+                  })}
+                </ul>
               </div>
             </Route>
-            <Route path="/Contact" exact>CONTACT</Route>
+            <Route path="/Contact" exact>
+              <div className="contact">
+                <ul className="social">
+                  {resumeData.socialLinks && resumeData.socialLinks.map(item =>{
+                    return(<li key={item.name}>
+                      <a href={item.url} target="_blank" rel="noopener noreferrer"><i className={item.className}></i></a>
+                    </li>)
+                  })}
+                </ul>
+              </div>
+            </Route>
             <Route path="/About" exact>
               <Resume />
             </Route>
             <Route path="/Components" exact>
               <AllComponents />
             </Route>
-            <Route path="*" exact>404 Not Found</Route>
+            <Route path="*" exact>
+              <h1 style={{margin:"10px"}}>404 Not Found</h1>
+            </Route>
           </Switch>
         </main>
     </div>
