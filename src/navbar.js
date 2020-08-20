@@ -1,14 +1,20 @@
 import React, {useState} from 'react'
+import {useHistory} from "react-router-dom"
 const width = 100
 
 export default function Navbar(props){
+  const history = useHistory()
+  const path = history.location.pathname.substring(1)
   const {tabs} = props
-  const [selected,setSelected] = useState(tabs ? tabs[0] : null)
-  const selIndex = tabs.indexOf(selected)
+  const [selected,setSelected] = useState(path || (tabs ? tabs[0] : null)) // default is Home as first index
+  let selIndex = tabs.indexOf(selected)
+  if (selIndex < 0) selIndex=0
+  // need above line to account for nonsense selected paths, 404 errors - else the bar will be in weird place
   const barLeft = selIndex*width
-  return <div style={styles.tabs}>
+
+  return <div className="alltabs" style={styles.tabs}>
     {tabs.map((t,i)=>{
-      return <div key={i}
+      return <div className="tab" key={i}
       onClick={()=> {
         setSelected(t)
         if(props.onSelect) props.onSelect(t)
@@ -20,7 +26,7 @@ export default function Navbar(props){
         {t}
       </div>
     })}
-    <div style={{
+    <div className="bar" style={{
       ...styles.bar,
       left:barLeft,
       background:props.barColor || '#00FF00',

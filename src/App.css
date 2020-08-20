@@ -1,6 +1,6 @@
 .App {
-  text-align: center;
-  background-color: rgb(200, 204, 211);
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,13 +9,29 @@
   color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header{
+  width:100%;
+  display:flex;
+  max-height: 50px;
+  background:black;
+  align-items: center;
+  justify-content: center;
 }
 
-header {
-  background-color: #282c34;
-  width: 100%;
+.page{
+  display:flex;
+  flex:1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* isn't currently on anything */
+.home {
+  display:flex;
+  flex:1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
 }
