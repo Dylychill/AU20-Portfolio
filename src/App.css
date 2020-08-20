@@ -1,16 +1,17 @@
 .App {
-  background-color: #282c34;
+  background-color: #f5f3ed;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 header{
   width:100%;
+  color: white;
   display:flex;
   max-height: 50px;
   background:black;
@@ -23,15 +24,305 @@ header{
   flex:1;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  width: 100%;
 }
 
-/* isn't currently on anything */
 .home {
   display:flex;
   flex:1;
+  color: #fff;
+  background: #161415 url(./header.jpg) no-repeat top center;
+  background-size: cover !important;
+	-webkit-background-size: cover !important;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position:absolute;
+}
+
+h1, h2, h3 {
+  color: #313131;
+  font-family: 'opensans-bold', sans-serif;
+  font-weight: normal;
+}
+
+h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
+h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
+
+.home h1 {
+  font: 90px/1.1em 'opensans-bold', sans-serif;
+  color: #fff;
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+.home h3 {
+  font: 18px/1.9em 'librebaskerville-regular', serif;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+  width: 70%;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+  text-align: center;
+}
+
+/* ------------------------------------------------------------------ */
+/* d. Resume Section
+/* ------------------------------------------------------------------ */
+
+#resume {
+  background: #fff;
+  padding-top: 90px;
+  padding-bottom: 72px;
+  overflow: hidden;
+}
+
+.twelve.columns p {
+  color: #6E7881;
+  font-size: 16px;
+}
+
+#resume li {
+  font-size: 20px;
+}
+
+#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a:hover, #resume a:focus { color: #313131; }
+
+#resume h1 {
+  font: 18px/24px 'opensans-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#resume h1 span {
+  border-bottom: 3px solid #11ABB0;
+  padding-bottom: 6px;
+}
+#resume h3 {
+  font-family: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#resume .header-col { padding-top: 9px; }
+#resume .main-col { padding-right: 10%; }
+
+.education, .work {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #E8E8E8;
+}
+#resume .info {
+  font: 16px/24px 'librebaskerville-italic', serif;
+  color: #6E7881;
+  margin-bottom: 18px;
+  margin-top: 9px;
+}
+#resume .info span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#resume .date {
+  font: 15px/24px 'opensans-regular', sans-serif;
+  margin-top: 6px;
+}
+
+/* deafult base for components */
+
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+   -webkit-font-smoothing: antialiased;
+}
+
+body {
+   background: #fff;
+   font-family: 'opensans-regular', sans-serif;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 30px;
+	color: #838C95;
+
+   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+.row {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+/* fixed width for IE8 */
+.ie .row { width: 1000px ; }
+
+.narrow .row { max-width: 980px; }
+
+.row .row { width: auto; max-width: none; margin: 0 -20px; }
+
+/* row clearing */
+.row:before,
+.row:after {
+   content: " ";
+   display: table;
+}
+.row:after {
+   clear: both;
+}
+
+.column, .columns {
+  position: relative;
+  padding: 0 20px;
+  min-height: 1px;
+  float: left;
+}
+.column.centered, .columns.centered  {
+   float: none;
+   margin: 0 auto;
+}
+
+/* removed gutters */
+.row.collapsed > .column,
+.row.collapsed > .columns,
+.column.collapsed, .columns.collapsed  { padding: 0; }
+
+[class*="column"] + [class*="column"]:last-child { float: right; }
+[class*="column"] + [class*="column"].end { float: right; }
+
+/* column widths */
+.row .one         { width: 8.33333%; }
+.row .two         { width: 16.66667%; }
+.row .three       { width: 25%; }
+.row .four        { width: 33.33333%; }
+.row .five        { width: 41.66667%; }
+.row .six         { width: 50%; }
+.row .seven       { width: 58.33333%; }
+.row .eight       { width: 66.66667%; }
+.row .nine        { width: 75%; }
+.row .ten         { width: 83.33333%; }
+.row .eleven      { width: 91.66667%; }
+.row .twelve      { width: 100%; }
+
+/* Offsets */
+.row .offset-1    { margin-left: 8.33333%; }
+.row .offset-2    { margin-left: 16.66667%; }
+.row .offset-3    { margin-left: 25%; }
+.row .offset-4    { margin-left: 33.33333%; }
+.row .offset-5    { margin-left: 41.66667%; }
+.row .offset-6    { margin-left: 50%; }
+.row .offset-7    { margin-left: 58.33333%; }
+.row .offset-8    { margin-left: 66.66667%; }
+.row .offset-9    { margin-left: 75%; }
+.row .offset-10   { margin-left: 83.33333%; }
+.row .offset-11   { margin-left: 91.66667%; }
+
+/* Push/Pull */
+.row .push-1      { left: 8.33333%; }
+.row .pull-1      { right: 8.33333%; }
+.row .push-2      { left: 16.66667%; 	}
+.row .pull-2      { right: 16.66667%; }
+.row .push-3      { left: 25%; }
+.row .pull-3      { right: 25%;	}
+.row .push-4      { left: 33.33333%; }
+.row .pull-4      { right: 33.33333%; }
+.row .push-5      { left: 41.66667%; }
+.row .pull-5      { right: 41.66667%; }
+.row .push-6      { left: 50%; }
+.row .pull-6      { right: 50%; }
+.row .push-7      { left: 58.33333%; }
+.row .pull-7      { right: 58.33333%; }
+.row .push-8      { left: 66.66667%; 	}
+.row .pull-8      { right: 66.66667%; }
+.row .push-9      { left: 75%; }
+.row .pull-9      { right: 75%; }
+.row .push-10     { left: 83.33333%; }
+.row .pull-10     { right: 83.33333%; }
+.row .push-11     { left: 91.66667%; }
+.row .pull-11     { right: 91.66667%; }
+
+/* block grids
+--------------------------------------------------------------------- */
+.bgrid-sixths [class*="column"]   { width: 16.66667%; }
+.bgrid-quarters [class*="column"] { width: 25%; }
+.bgrid-thirds [class*="column"]   { width: 33.33333%; }
+.bgrid-halves [class*="column"]   { width: 50%; }
+
+[class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: left; }
+
+/* Left clearing for block grid columns - columns that changes width in
+different screen sizes. Allows columns with different heights to align
+properly.
+--------------------------------------------------------------------- */
+.first { clear: left; }   /* first column in default screen */
+.s-first { clear: none; } /* first column in smaller screens */
+
+/* smaller screens
+--------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+
+  /* block grids on small screens */
+  .s-bgrid-sixths [class*="column"]   { width: 16.66667%; }
+  .s-bgrid-quarters [class*="column"] { width: 25%; }
+  .s-bgrid-thirds [class*="column"]   { width: 33.33333%; }
+  .s-bgrid-halves [class*="column"]   { width: 50%; }
+
+  /* block grids left clearing */
+  .first { clear: none; }
+  .s-first { clear: left; }
+
+}
+
+/* mobile wide/smaller tablets
+--------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+
+  .row {
+    width: 460px;
+    margin: 0 auto;
+     padding: 0;
+ }
+  .column, .columns {
+    width: auto !important;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+     padding: 0 30px;
+  }
+  .row .row { width: auto; max-width: none; margin: 0 -30px; }
+
+  [class*="column"] + [class*="column"]:last-child { float: none; }
+  [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: none; }
+
+  /* Offsets */
+  .row .offset-1    { margin-left: 0%; }
+  .row .offset-2    { margin-left: 0%; }
+  .row .offset-3    { margin-left: 0%; }
+  .row .offset-4    { margin-left: 0%; }
+  .row .offset-5    { margin-left: 0%; }
+  .row .offset-6    { margin-left: 0%; }
+  .row .offset-7    { margin-left: 0%; }
+  .row .offset-8    { margin-left: 0%; }
+  .row .offset-9    { margin-left: 0%; }
+  .row .offset-10   { margin-left: 0%; }
+  .row .offset-11   { margin-left: 0%; }
+}
+
+/* mobile narrow
+--------------------------------------------------------------- */
+@media only screen and (max-width: 460px) {
+
+  .row { width: auto; }
+
+}
+
+/* larger screens
+--------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+
+  .wide .row { max-width: 1180px; }
+
 }

@@ -57,7 +57,7 @@ const BlueBar=styled.div`
     position:absolute;
     left: 0px;
     top:10px;
-    background: aqua;
+    background: #0ac6f5;
     border-radius:3px;
 `
 const Dot=styled.div`
@@ -68,7 +68,7 @@ const Dot=styled.div`
     border-radius:10px;
     top:4px;
     background:white;
-    border: 2px solid aqua;
+    border: 2px solid #0ac6f5;
     cursor:pointer;
 `
 const Number=styled.div`
