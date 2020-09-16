@@ -1,4 +1,16 @@
+# TA About Me Pages for UW CSE 154 AU20
+This is the "mini-portfolio" About Me pages for Dylan McKone (author) for the students of 154. It is a simple briefing of who I am and some information and tips about the course. It is written using React, and much of it comes from previous personal projects in another courses.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Navigating the Project
+This project has many components and is heavily compartmentalized. Each page and major chunk of information will likely be it's own component and each component is in its own file.
+
+### resumeData.js
+Most of the personalized information is loaded in from this text file to avoid repeating text in the js files.
+
+### App.js
+The 'landing' page, the central component that calls to the rest. Sets up the the navbar (component: `navbar.js`) using the Path and Router libraries and sets the Home page intro text.
 
 ## Available Scripts
 
@@ -26,43 +38,3 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

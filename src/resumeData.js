@@ -16,11 +16,11 @@ let resumeData = {
       },
       {
         name:"gmail",
-        url:"mailto:demckone@gmail.com",
+        url:"mailto:elodia17@uw.edu",
         className:"gmail"
       }
     ],
-  aboutme:"I am working toward my B.S. in Human Centered Design and Engineering and a B.A in Germanics. I am currently seeking a internships to learn about user research and web development.",
+  aboutme:"I'm a 4th year UW student (5-year plan, go me!) studying HCDE and Germanics. My career interests lie in usability testing and accessibility research geared toward disability and feminist studies. Pretty much I want to ask people how annoying tech can be as a nonormative user. (:",
   address:"Seattle, Washington",
   education:[
     {
@@ -40,7 +40,7 @@ let resumeData = {
       Achievements:"Grading coursework and leading section"
     },
     {
-      CompanyName:"The Daily newspaper UW",
+      CompanyName:"The Daily UW newspaper",
       specialization:"Design Editor",
       MonthOfLeaving:"Sep",
       YearOfLeaving:"2017-",
@@ -69,24 +69,33 @@ let resumeData = {
       skillname:"C#/Java",
       level: 70,
     },
+    {
+      skillname:"Just started with Python",
+      level: 20,
+    },
   ],
   skillsDescription:"Design:",
   skills:[
+
     {
-      skillname:"InDesign",
-      level:90,
-    },
-    {
-      skillname:"Photoshop",
-      level:70,
-    },
-    {
-      skillname:"InCopy",
+      skillname:"Layout Design (Newspaper and Magazine)",
       level:80,
     },
     {
-      skillname:"Illustrator",
-      level: 40,
+      skillname:"Graphic Design (Ads, infographics)",
+      level:70,
+    },
+    {
+      skillname:"Interactive Design (Infographics, Web Design)",
+      level:70,
+    },
+    {
+      skillname:"Adobe InDesign and InCopy",
+      level:90,
+    },
+    {
+      skillname:"Adobe Photoshop and Illustrator",
+      level:70,
     },
   ],
   portfolio:[
@@ -107,6 +116,44 @@ let resumeData = {
       fullDescription:"A basic mobile chat app made with React"
     },
   ],
+  photoGallery:[
+    {
+      source:"img/travel.jpg",
+      label:"I am a Germanics major and like to believe I can speak German. I studied abroad in Germany twice, as well as in London and Paris. I love to travel is a stereotypical statement for a reason."
+    },
+    {
+      source:"img/wormduring.jpg",
+      label:"I have 10 tattoos and am not stopping any time soon. I have plans to beat my mom at like, 22. Talk to me about them! My favorite is Dr. Worm, listen to the song that inspired it by They Might Be Giants, my favorite band."
+    },
+    {
+      source:"img/fam.png",
+      label:"I am very close with my family. I have 2 brothers and my ma and pa. I'm pretty partial to them. My brother and dad are also software developers. Most of my aunts and uncles too."
+    },
+    {
+      source:"img/comicconwithMom.jpg",
+      label:"I go to comic con with my mom every year."
+    },
+    {
+      source:"img/cat.jpg",
+      label:"I have a cat named Kat (she was an itty-bitty kitty and now she's a fat kat) but she currently lives with my older brother in Portland, Oregon."
+    },
+    {
+      source:"img/bo.JPG",
+      label:"I also have a twin brother named Clinton (Bo, really)."
+    },
+    {
+      source:"img/catamountThrone.jpg",
+      label:"I started at the newspaper back at Bothell High School and have continued my work at The Daily here on campus as Design Editor. I've included a couple spreads that I like from The Daily!"
+    },
+    {
+      source:"img/pacwavef19.gif",
+      label:"This gif is the entire Pacific Wave Wellness Edtion 2019. (dailyuw.com for more!)"
+    },
+    {
+      source:"img/reading.jpg",
+      label:"I love to read and hate sitting in chairs."
+    },
+  ]
 }
 
 export default resumeData

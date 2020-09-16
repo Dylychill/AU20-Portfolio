@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './navbar.js'
-import AllComponents from './componentsPage.js'
+import CSE154Page from './cse154about.js'
 import Resume from './resume.js';
 import resumeData from './resumeData';
 import { SocialIcon } from 'react-social-icons';
@@ -15,11 +15,10 @@ import {
 function App() {
   const history = useHistory();
   const path = history.location.pathname.substring(1)
-  console.log(path)
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar className="navbar" barColor="green" tabs={["Home", "Contact", "About", "Components"]}
+        <Navbar className="navbar" barColor="green" tabs={["Home", "About", "CSE154"]}
         onSelect={t=>{
           const p = t==='Home' ? '/' : '/'+t // home page now has nothing in url
           history.push(p)}}
@@ -33,7 +32,7 @@ function App() {
               <div className="home">
                 <h1>Dylan McKone</h1>
                 <h3>I am a University of Washington undergraduate studying Germanics and Human-Centered Design and Engineering (HCDE).</h3>
-                <h3>This is a brief portfolio website I made myself using React and JSX. Look around to learn more about me! :)</h3>
+                <h3>This is a brief portfolio website I made myself using React. Look around to learn more about me! :)</h3>
                 <ul className="social">
                   {resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                     return(<li key={item.name}>
@@ -57,8 +56,8 @@ function App() {
             <Route path="/About" exact>
               <Resume />
             </Route>
-            <Route path="/Components" exact>
-              <AllComponents />
+            <Route path="/CSE154" exact>
+              <CSE154Page />
             </Route>
             <Route path="*" exact>
               <h1 style={{margin:"10px"}}>404 Not Found</h1>
