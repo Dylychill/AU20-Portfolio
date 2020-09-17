@@ -12,6 +12,9 @@ Most of the personalized information is loaded in from this text file to avoid r
 ### App.js
 The 'landing' page, the central component that calls to the rest. Sets up the the navbar (component: `navbar.js`) using the Path and Router libraries and sets the Home page intro text.
 
+### cse154about.js
+The component containing information about the course. Has some advice to be successful in this class.
+
 ## Available Scripts
 
 In the project directory, you can run:
