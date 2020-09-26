@@ -53,7 +53,7 @@ export default function Navbar(props){
     </div>
   } else { //it's mobile time babeey!!
     return <div className="mobile-nav">
-      <MdDehaze className="nav-icon" style={{height:"40px", right:"10px", width:"40px"}}
+      <MdDehaze className="nav-icon" style={{height:"40px", right:"10px", width:"40px", cursor:"pointer"}}
        onClick = {() => {setShow(!show)}}/>
       {show && <div className="mobile-tabs">
         {tabs.map((t,i)=>{
@@ -61,7 +61,9 @@ export default function Navbar(props){
             onClick={()=> {
               setSelected(t)
               if(props.onSelect) props.onSelect(t)
-            }}>
+            }}
+            style={{cursor:'pointer'}}
+            >
             {t}
           </div>
         })}

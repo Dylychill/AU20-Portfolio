@@ -143,15 +143,15 @@ let resumeData = {
     },
     {
       source:"img/catamountThrone.jpg",
-      label:"I started at the newspaper back at Bothell High School and have continued my work at The Daily here on campus as Design Editor. I've included a couple spreads that I like from The Daily!"
-    },
-    {
-      source:"img/pacwavef19.gif",
-      label:"This gif is the entire Pacific Wave Wellness Edtion 2019. (dailyuw.com for more!)"
+      label:"I started at the newspaper back at Bothell High School and have continued my work at The Daily here on campus as Design Editor."
     },
     {
       source:"img/reading.jpg",
       label:"I love to read and hate sitting in chairs."
+    },
+    {
+      source:"img/pacwavef19.gif",
+      label:"This gif is the entire Pacific Wave Wellness Edtion 2019. (dailyuw.com for more!)"
     },
   ]
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import resumeData from './resumeData';
-import profilePic from './profilepic.PNG'
+import profilePic from './img/profilepic.PNG'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -11,8 +11,8 @@ export default class Resume extends Component {
       <div>
         {/* Intro with pic */}
         <section className="intro">
-          <img className="profile-pic" src={profilePic} alt="profile picture" />
-          <div className="columns">
+          <img src={profilePic} alt="profile picture" />
+          <div>
             <h1>Who am I?</h1>
             <p>{resumeData.aboutme}</p>
           </div>
