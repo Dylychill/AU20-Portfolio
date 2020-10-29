@@ -119,7 +119,8 @@ export default class Resume extends Component {
         </section>
         {/* More personal details */}
         <section className="personal">
-          <h1>More in Photo Form</h1>
+          <h1>Personal Info</h1>
+          <h2>More in Photo Form</h2>
           <div>
             <Carousel dynamicHeight='true' infiniteLoop="true">
               {resumeData.photoGallery && resumeData.photoGallery.map((item, i) => {
@@ -130,13 +131,12 @@ export default class Resume extends Component {
               })}
             </Carousel>
           </div>
-          <h1>Things I can't stop thinking about</h1>
+          <h2>Things I can't stop thinking about</h2>
           <ul>
             <li>The Magnus Archive (Podcast)</li>
             <li>Haikyuu!! (Anime)</li>
             <li>Percy Jackson (should I read the books again? did they age well?)</li>
-            <li>2 NEW BREATH OF THE WILDS AND IM NOT EVEN DONE WITH THIS ONE</li>
-            <li>Half Life but the AI is Self-Aware made me relive every full life consequence</li>
+            <li>Breath of The Wild</li>
             <li>Animal Crossing :)</li>
           </ul>
         </section>

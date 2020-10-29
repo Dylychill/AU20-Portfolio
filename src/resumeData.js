@@ -33,7 +33,7 @@ let resumeData = {
   ],
   work:[
     {
-      CompanyName:"UW ",
+      CompanyName:"University of Washington - CS ",
       specialization:"TA CSE 154",
       MonthOfLeaving:"Spring",
       YearOfLeaving:"2020",
@@ -44,7 +44,7 @@ let resumeData = {
       specialization:"Design Editor",
       MonthOfLeaving:"Sep",
       YearOfLeaving:"2017-",
-      Achievements:""
+      Achievements:"Hired and organized designers for weekly print productions. \nDesigned and created graphics for page layout, communicated with the editors and content creators, and assigned work to other designers.\nCheck out my work on The Daily's website: http://www.dailyuw.com/eedition/"
     }
   ],
   skillsProgDescription:"Programming:",
@@ -96,6 +96,126 @@ let resumeData = {
     {
       skillname:"Adobe Photoshop and Illustrator",
       level:70,
+    },
+  ],
+  projects:[
+    { project:{
+        title: "Coding and Web Design",
+        description:"I work as a TA for UWs CSE department teaching introduction to web development. As a part of this I do a lot of little projects and assist with testing all our assignments. There's even a tab on this website for my students, so unfortuanetly a lot of my work has to be kept behind locked doors. :( Here are some of my other projects though! Most everyhting can be found on my github profile.",
+        details:[{
+            name: "This Portfolio Website",
+            projDescription: "I made this portfolio starting in UW HCDE 438 course. It is written using React (create-react-app) and plenty of libraries. It is definitely a testing ground for new components and concepts, so it is a bit messy! It's also my first major React project.",
+            link: "",
+            fullLink: "https://github.com/Dylychill/AU20-Portfolio",
+            date: "Summer 2020 - Current"
+          },
+          {
+            name: "Musical Bubble Popping Game",
+            projDescription: "This simple React bubble popping game was a personal assignment as a part of HCDE 438. It is most definitly not completed by I really enjoyed the process behind it.",
+            link: "img/Bubbles.png",
+            fullLink: "https://github.com/Dylychill/bubblepopper",
+            date: "Summer 2020"
+          },
+          {
+            name: "Space Shooter game",
+            projDescription: "This simple shooter game was made with the class in HCDE 438. It was published online through firebase and has functionality for multiple users on different devices to fight each other.",
+            link: "",
+            fullLink: "https://mckonespacehcde438.web.app/",
+            date: "Summer 2020"
+          },
+          {
+            name: "Meme Finder",
+            projDescription: "In practice with using APIs, I made a simple gif finder website that takes some text from a user to return relevant gifs from the Giphy API. It is deployed through firebase.  Github: github.com/Dylychill/giffer",
+            link: "",
+            fullLink: "https://mckonespacehcde438.web.app/",
+            date: "Summer 2020"
+          }
+        ]
+      }
+    },
+    {
+      project:{
+        title: "Germanics Ad Hoc Honors Program",
+        description:"In addition to course work, honors students take on an additional project of their choosing to work on with their instructor. This project can be in any form, but generally coincides somewhat with the course's content.",
+        details:[
+          {
+            name: "German 285: Extinctions - Feminization of Nature Literature Review",
+            projDescription: "This paper discussed how the association of nature with femininity normalizes the subjugation of both and diving into how the male-dominated scientific community used the concept of objectivity to rationalize their actions. It mainly pulled from Carolyn Merchant's book, The Death of Nature.",
+            frameLink: "img/Feminization of Nature_McKone Honors Paper.pdf",
+            fullLink: "https://drive.google.com/file/d/1-08Z8zLwvH_dFiWMB-ymRSKp_dsbz5Dx/view?usp=sharing",
+            date: "Winter 2020"
+          },
+          {
+            name: "German 301: Conversation and Writing Skill - Connotation and Denotation Blog",
+            projDescription: "This blog blog will delve into a different piece of German media each week to study how varying translations can (un)intentionally change the meaning of a scene.",
+            frameLink: "https://mckone-honorsproject-au20.squarespace.com/",
+            fullLink: "https://mckone-honorsproject-au20.squarespace.com/",
+            date: "Fall 2020"
+          }]
+        }
+    },
+    {
+      project:{
+        title: "The Daily, UW",
+        description:"At UW's newspaper, I hire and organize designers for weekly print productions (on pause now), request work, and for weekly email newsletter. I design and create graphics to go alongside articles and communicate with the editors and content creators. Click the links to see the full issues.",
+        details: [{
+            name: "Pacific Wave - BTS Magazine",
+            projDescription: "I design for our quarterly print magazine. I led the Back To School (BTS) 2019 edition and assist on the others over my time. The BTS cover won 2nd place in the Design of The Year category in the Associated Collegiate Press 2020 national convention for Magazine Cover.",
+            link: "img/BTSMag_01.png",
+            fullLink: "https://issuu.com/thedailyuw/docs/pw_bts_2019_reduced",
+            date: "Fall 2019"
+          },
+          {
+            name: "Welcome Edition 2019",
+            projDescription: "Welcome is the largest print paper of the year, averaging upwards of 40 pages. This paper is sent to the homes of all UW Freshman and is completed in the last few weeks of Summer. It is the largest project yet. 2019 was my first year as Design Editor (promotion) and this was my first lead project. Welcome is always split into 3 themed sections. All of these can be found on our issuu page. First here is Campus Life Section.",
+            frameLink: "https://drive.google.com/file/d/1c9UYCfu1XA-q4Kf8aERT8RaCKQr12FqG/preview",
+            fullLink: "https://issuu.com/thedailyuw/docs/a_campus_life__reduced_",
+            date: "Summer 2019"
+          },
+          {
+            name: "Welcome Edition 2020",
+            projDescription: "I continued on as Design Editor in 2020, and so we took on another Welcome. Most of the staff excluding myself were new so the learning curve was less logisitical, and more about communication. The first section here is Campus Life.",
+            link: "img/CampusLife_200814_Page01.png",
+            fullLink: "https://issuu.com/thedailyuw/docs/campuslifewholeissue",
+            date: "Summer 2020"
+          },
+          {
+            name: "Weekly Print Papers",
+            projDescription: "While on hiatus now, The Daily has a weekly print paper that I led. Here are a few of my favorite print papers, but the rest can be seen on our issuu account or our website.",
+            link: "img/UWDAILY_191125_01.png",
+            fullLink: "https://issuu.com/thedailyuw/docs/191125_full",
+            date: "Nov 24, 2019 "
+          },
+          {
+            name: "",
+            projDescription: "This Newspaper Front page won 2nd place in the Design of The Year category in the Associated Collegiate Press 2020 national convention.",
+            link: "img/UWDaily_191112_01.png",
+            fullLink: "https://issuu.com/thedailyuw/docs/uwdaily_191112_wholeissue",
+            date: "Nov 11, 2019 "
+          },
+          {
+            name: "Request Graphic Design",
+            projDescription: "Graphic design is on request basis at The Daily, where writers request some media to accompany their articles. Request work encompass house ads, infographics, collages, and other unique projects. This infographic here is one such request and sums up the basic characteristis of OCD alsongside a Health & Wellness article. Click the links of the below pieces to see the article.",
+            link: "img/OCD_Infographic.png",
+            fullLink: "http://www.dailyuw.com/wellness/article_b3c8e9be-1731-11eb-ac89-2bee71ef1d03.html",
+            date: "Fall 2020 "
+          },
+          {
+            name: "",
+            projDescription: "This recipe graphic is updated weekly alongside a food column.",
+            link: "img/Recipe.png",
+            fullLink: "http://www.dailyuw.com/arts_and_leisure/article_3b7946fa-046e-11eb-a31d-1b03dd2b8be8.html",
+            date: "Fall 2020"
+          },
+          {
+            name: "",
+            projDescription: "I made this house ad for online and print to call for poetry submissions. ",
+            link: "img/AE_Ad.jpg",
+            fullLink: "http://www.dailyuw.com/arts_leisure/fiction_and_poetry/",
+            date: ""
+          }
+        ]
+      }
     },
   ],
   portfolio:[

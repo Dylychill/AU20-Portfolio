@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './navbar.js'
+import Projects from './projects.js'
 import CSE154Page from './cse154about.js'
 import Resume from './resume.js';
 import resumeData from './resumeData';
@@ -18,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar className="navbar" barColor="green" tabs={["Home", "About", "CSE154"]}
+        <Navbar className="navbar" barColor="green" tabs={["Home", "About", "Projects", "CSE154"]}
         onSelect={t=>{
           const p = t==='Home' ? '/' : '/'+t // home page now has nothing in url
           history.push(p)}}
@@ -55,6 +56,9 @@ function App() {
             </Route>
             <Route path="/About" exact>
               <Resume />
+            </Route>
+            <Route path="/Projects" exact>
+              <Projects />
             </Route>
             <Route path="/CSE154" exact>
               <CSE154Page />
