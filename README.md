@@ -1,4 +1,4 @@
-# TA About Me Pages for UW CSE 154 AU20
+# TA About Me Pages for UW CSE 154 AU21
 This is the "mini-portfolio" About Me pages for Dylan McKone (author) for the students of 154. It is a simple briefing of who I am and some information and tips about the course. It is written using React, and much of it comes from previous personal projects in another courses.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

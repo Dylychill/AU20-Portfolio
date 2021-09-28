@@ -123,16 +123,16 @@ let resumeData = {
             fullLink: "https://github.com/Dylychill/bubblepopper",
             date: "Summer 2020"
           },
+          // {
+          //   name: "Meme Finder",
+          //   projDescription: "In practice with using APIs, I made a simple gif finder website that takes some text from a user to return relevant gifs from the Giphy API. It is deployed through firebase.  Github: github.com/Dylychill/giffer",
+          //   link: "",
+          //   fullLink: "https://mckonespacehcde438.web.app/",
+          //   date: "Summer 2020"
+          // },
           {
             name: "Space Shooter game",
             projDescription: "This simple shooter game was made with the class in HCDE 438. It was published online through firebase and has functionality for multiple users on different devices to fight each other.",
-            link: "",
-            fullLink: "https://mckonespacehcde438.web.app/",
-            date: "Summer 2020"
-          },
-          {
-            name: "Meme Finder",
-            projDescription: "In practice with using APIs, I made a simple gif finder website that takes some text from a user to return relevant gifs from the Giphy API. It is deployed through firebase.  Github: github.com/Dylychill/giffer",
             link: "",
             fullLink: "https://mckonespacehcde438.web.app/",
             date: "Summer 2020"
@@ -164,7 +164,7 @@ let resumeData = {
     {
       project:{
         title: "The Daily, UW",
-        description:"At UW's newspaper, I hire and organize designers for weekly print productions (on pause now), request work, and for weekly email newsletter. I design and create graphics to go alongside articles and communicate with the editors and content creators. Click the links to see the full issues.",
+        description:"At UW's newspaper, I hire and organize designers for weekly print productions, request work, and for weekly email newsletter. I design and create graphics to go alongside articles and communicate with the editors and content creators. I highly reccomend you check out The Daily's site to see more.",
         details: [{
             name: "Pacific Wave - BTS Magazine",
             projDescription: "I design for our quarterly print magazine. I led the Back To School (BTS) 2019 edition and assist on the others over my time. The BTS cover won 2nd place in the Design of The Year category in the Associated Collegiate Press 2020 national convention for Magazine Cover.",
@@ -172,13 +172,13 @@ let resumeData = {
             fullLink: "https://issuu.com/thedailyuw/docs/pw_bts_2019_reduced",
             date: "Fall 2019"
           },
-          {
-            name: "Welcome Edition 2019",
-            projDescription: "Welcome is the largest print paper of the year, averaging upwards of 40 pages. This paper is sent to the homes of all UW Freshman and is completed in the last few weeks of Summer. It is the largest project yet. 2019 was my first year as Design Editor (promotion) and this was my first lead project. Welcome is always split into 3 themed sections. All of these can be found on our issuu page. First here is Campus Life Section.",
-            frameLink: "https://drive.google.com/file/d/1c9UYCfu1XA-q4Kf8aERT8RaCKQr12FqG/preview",
-            fullLink: "https://issuu.com/thedailyuw/docs/a_campus_life__reduced_",
-            date: "Summer 2019"
-          },
+          // {
+          //   name: "Welcome Edition 2019",
+          //   projDescription: "Welcome is the largest print paper of the year, averaging upwards of 40 pages. This paper is sent to the homes of all UW Freshman and is completed in the last few weeks of Summer. It is the largest project yet. 2019 was my first year as Design Editor (promotion) and this was my first lead project. Welcome is always split into 3 themed sections. All of these can be found on our issuu page. First here is Campus Life Section.",
+          //   frameLink: "https://drive.google.com/file/d/1c9UYCfu1XA-q4Kf8aERT8RaCKQr12FqG/preview",
+          //   fullLink: "https://issuu.com/thedailyuw/docs/a_campus_life__reduced_",
+          //   date: "Summer 2019"
+          // },
           {
             name: "Welcome Edition 2020",
             projDescription: "I continued on as Design Editor in 2020, and so we took on another Welcome. Most of the staff excluding myself were new so the learning curve was less logisitical, and more about communication. The first section here is Campus Life.",
@@ -199,28 +199,28 @@ let resumeData = {
             link: "img/UWDaily_191112_01.png",
             fullLink: "https://issuu.com/thedailyuw/docs/uwdaily_191112_wholeissue",
             date: "Nov 11, 2019 "
-          },
-          {
-            name: "Request Graphic Design",
-            projDescription: "Graphic design is on request basis at The Daily, where writers request some media to accompany their articles. Request work encompass house ads, infographics, collages, and other unique projects. This infographic here is one such request and sums up the basic characteristis of OCD alsongside a Health & Wellness article. Click the links of the below pieces to see the article.",
-            link: "img/OCD_Infographic.png",
-            fullLink: "http://www.dailyuw.com/wellness/article_b3c8e9be-1731-11eb-ac89-2bee71ef1d03.html",
-            date: "Fall 2020 "
-          },
-          {
-            name: "",
-            projDescription: "This recipe graphic is updated weekly alongside a food column.",
-            link: "img/Recipe.png",
-            fullLink: "http://www.dailyuw.com/arts_and_leisure/article_3b7946fa-046e-11eb-a31d-1b03dd2b8be8.html",
-            date: "Fall 2020"
-          },
-          {
-            name: "",
-            projDescription: "I made this house ad for online and print to call for poetry submissions. ",
-            link: "img/AE_Ad.jpg",
-            fullLink: "http://www.dailyuw.com/arts_leisure/fiction_and_poetry/",
-            date: ""
           }
+          //, {
+          //   name: "Request Graphic Design",
+          //   projDescription: "Graphic design is on request basis at The Daily, where writers request some media to accompany their articles. Request work encompass house ads, infographics, collages, and other unique projects. This infographic here is one such request and sums up the basic characteristis of OCD alsongside a Health & Wellness article. Click the links of the below pieces to see the article.",
+          //   link: "img/OCD_Infographic.png",
+          //   fullLink: "http://www.dailyuw.com/wellness/article_b3c8e9be-1731-11eb-ac89-2bee71ef1d03.html",
+          //   date: "Fall 2020 "
+          // },
+          // {
+          //   name: "",
+          //   projDescription: "This recipe graphic is updated weekly alongside a food column.",
+          //   link: "img/Recipe.png",
+          //   fullLink: "http://www.dailyuw.com/arts_and_leisure/article_3b7946fa-046e-11eb-a31d-1b03dd2b8be8.html",
+          //   date: "Fall 2020"
+          // },
+          // {
+          //   name: "",
+          //   projDescription: "I made this house ad for online and print to call for poetry submissions. ",
+          //   link: "img/AE_Ad.jpg",
+          //   fullLink: "http://www.dailyuw.com/arts_leisure/fiction_and_poetry/",
+          //   date: ""
+          // }
         ]
       }
     },
