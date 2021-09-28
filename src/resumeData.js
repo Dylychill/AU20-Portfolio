@@ -20,31 +20,31 @@ let resumeData = {
         className:"gmail"
       }
     ],
-  aboutme:"I'm a 4th year UW student (5-year plan, go me!) studying HCDE and Germanics. My career interests lie in usability testing and accessibility research geared toward disability and feminist studies. Pretty much I want to ask people how annoying tech can be as a nonormative user. (:",
+  aboutme:"I'm a 5th year UW student (5-year plan, go me!) studying HCDE and Germanics. My career interests lie in usability testing and accessibility research geared toward disability and feminist studies. Pretty much I want to ask people how annoying tech can be as a nonnormative user. (:",
   address:"Seattle, Washington",
   education:[
     {
       UniversityName:"University of Washington",
-      specialization:"Some specialization",
+      specialization:"BA in Germanics and BS in Human-Centered Design and Engineering",
       MonthOfPassing:"June",
-      YearOfPassing:"2021",
-      Achievements:"Dean's List"
+      YearOfPassing:"2022",
+      Achievements:"Dean's List "
     }
   ],
   work:[
     {
       CompanyName:"University of Washington - CS ",
       specialization:"TA CSE 154",
-      MonthOfLeaving:"Spring",
-      YearOfLeaving:"2020",
-      Achievements:"Grading coursework and leading section"
+      MonthOfLeaving:"Autumn 20- ",
+      YearOfLeaving:"Autumn 2021",
+      Achievements:"Grading coursework and leading section. This is my 4th quarter as a TA but my first working in person!"
     },
     {
       CompanyName:"The Daily UW newspaper",
-      specialization:"Design Editor",
+      specialization:"Design Editor and Web Editor",
       MonthOfLeaving:"Sep",
-      YearOfLeaving:"2017-",
-      Achievements:"Hired and organized designers for weekly print productions. \nDesigned and created graphics for page layout, communicated with the editors and content creators, and assigned work to other designers.\nCheck out my work on The Daily's website: http://www.dailyuw.com/eedition/"
+      YearOfLeaving:"2017- Now",
+      Achievements:"I lead the design team on our quarterly magazine Pacific Wave and create interactive content for our website. Design covers a huge range of print layout for newspapers to managing our website's backend content management system. \nCheck out my work on The Daily's website: http://www.dailyuw.com"
     }
   ],
   skillsProgDescription:"Programming:",
@@ -108,6 +108,13 @@ let resumeData = {
             link: "",
             fullLink: "https://github.com/Dylychill/AU20-Portfolio",
             date: "Summer 2020 - Current"
+          },
+          {
+            name: "The Daily Website",
+            projDescription: "While the website has been around longer than me, I often help with maintaining and designing the special edition pages for Pacific Wave. I also create a lot of interactive elements for our website. Dream Deferred is the most recent edition I assisted on.",
+            // frameLink: "http://www.dailyuw.com/pacific_wave/dream_deferred/",
+            fullLink: "http://www.dailyuw.com/pacific_wave/dream_deferred/",
+            date: "Fall 2020"
           },
           {
             name: "Musical Bubble Popping Game",

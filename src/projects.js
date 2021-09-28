@@ -6,7 +6,7 @@ export default function Projects() {
     return <div className="projects">
         <h3>Projects and Work</h3>
         <article>
-            <p> Here are some examples of my work and projects.
+            <p> Here are some examples of my work and various projects.
             </p>
         </article>
 

@@ -33,9 +33,9 @@ export default class Resume extends Component {
                         <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                        <p>
+                        {/* <p>
                           {item.Achievements}
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   )
@@ -67,7 +67,7 @@ export default class Resume extends Component {
               }
             </div>
           </div>
-          <div className="row skill">
+          {/* <div className="row skill">
             <div className="three columns">
               <h1><span>Skills</span></h1>
             </div>
@@ -115,7 +115,7 @@ export default class Resume extends Component {
                 </ul>
               </div>
             </div>
-          </div>
+          </div>*/}
         </section>
         {/* More personal details */}
         <section className="personal">
@@ -134,7 +134,8 @@ export default class Resume extends Component {
           <h2>Things I can't stop thinking about</h2>
           <ul>
             <li>The Magnus Archive (Podcast)</li>
-            <li>Haikyuu!! (Anime)</li>
+            <li>Final Fantasy 14</li>
+            <li>Thief 2: The Metal Age</li>
             <li>Percy Jackson (should I read the books again? did they age well?)</li>
             <li>Breath of The Wild</li>
             <li>Animal Crossing :)</li>

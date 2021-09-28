@@ -33,7 +33,8 @@ function App() {
               <div className="home">
                 <h1>Dylan McKone</h1>
                 <h3>I am a University of Washington undergraduate studying Germanics and Human-Centered Design and Engineering (HCDE).</h3>
-                <h3>This is a brief portfolio website I made myself using React. Look around to learn more about me! :)</h3>
+                <h3>This is a brief version of an old portfolio website I made myself using React. Look around to learn more about me! :)</h3>
+                <h3>My current portfolio is <a href="https://mckone-portfolio.squarespace.com/">here</a> if you're curious.</h3>
                 <ul className="social">
                   {resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                     return(<li key={item.name}>
