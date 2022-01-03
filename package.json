@@ -1,5 +1,5 @@
 {
-  "name": "AU20-Portfolio",
+  "name": "au20-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,5 +41,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This is the \"mini-portfolio\" About Me pages for Dylan McKone (author) for the students of 154. It is a simple briefing of who I am and some information and tips about the course. It is written using React, and much of it comes from previous personal projects in another courses.",
+  "main": "App.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dylychill/AU20-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dylychill/AU20-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Dylychill/AU20-Portfolio#readme"
 }
