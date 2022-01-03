@@ -3,10 +3,9 @@ import React from 'react';
 
 export default function CSE154Page() {
     return <div className="cse154page">
-        <h3>Welcome CSE 154 Wi22 students!</h3>
+        <h3>Welcome CSE 154!</h3>
         <article>
-          <p> Here are some tips and tricks for new students that I've learned as a 154 student and TA. This is my fifth
-              time TA'ing (Sp20 was the first). Feel free to peruse this website to learn a little more about me.
+          <p> Here are some tips and tricks for new students that I've learned as a 154 student and TA. I've been TA'in since Spring 2020. Feel free to peruse this website to learn a little more about me.
               I look forward to working with you all!
           </p>
         </article>
